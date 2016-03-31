@@ -1,6 +1,6 @@
 {
   "name": "hfm-repoforge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "hfm",
   "summary": "Configure the repoforge repository and import the GPG keys.",
   "license": "MIT",
