@@ -1,15 +1,47 @@
 {
   "name": "hfm-repoforge",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "hfm",
-  "summary": null,
-  "license": "Apache-2.0",
-  "source": "",
-  "project_page": null,
-  "issues_url": null,
+  "summary": "Configure the repoforge repository and import the GPG keys.",
+  "license": "MIT",
+  "source": "https://github.com/hfm/puppet-repoforge",
+  "project_page": "https://github.com/hfm/puppet-repoforge",
+  "issues_url": "https://github.com/hfm/puppet-repoforge/issues",
   "dependencies": [
-    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 3.0.0 < 5.0.0"
+    },
+    {
+      "name": "stahnma/epel",
+      "version_requirement": ">= 1.0.0 < 2.0.0"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "5.0",
+        "6.0",
+        "7.0"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "5.0",
+        "6.0",
+        "7.0"
+      ]
+    },
+    {
+      "operatingsystem": "Scientific Linux",
+      "operatingsystemrelease": [
+        "5.0",
+        "6.0",
+        "7.0"
+      ]
+    }
   ],
   "data_provider": null
 }
-
